@@ -1,0 +1,10 @@
+{% for i in jobs %}
+  <div class="job-card">
+   <p>
+    {{ i["job name"] }}
+   </p> 
+    <p><Strong>Location</Strong>: {{i["location"]}}</p>
+    <p><strong>Salary</strong>: {{i["salary"]}}</p>
+    <button class="btn btn-secondary">apply</button>
+  </div>
+{% endfor %}
