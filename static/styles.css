@@ -16,6 +16,8 @@ button:{
   box-shadow:0px 0px 4px 3px;
 }
 img{
+  margin-top:15%;
+  margin-bottom:5%;
   max-width:100%;
   box-shadow:0px 0px 4px 3px ;
 }
@@ -30,14 +32,20 @@ footer{
   justify-content:center;
 }
 .job-card{
-  background-color:rgba(100,100,100,0.08);
+  background-color:white;
    display:flex;
   flex-direction:column;
   padding:10px;
   margin:20px;
-  box-shadow:0px 0px 4px 3px #e5dcdc;
+  box-shadow:0px 0px 4px 3px #e2dfdf;
 }
 .job-card p{
   text-align:center;
   display:inline-block;
+}
+.navbar{
+  box-shadow:0px 0px 4px 3px #e2dfdf;
+}
+.offcanvas{
+  box-shadow:0px 0px 10px 1px #e2dfdf;
 }
